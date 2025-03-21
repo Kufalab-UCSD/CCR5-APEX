@@ -9,7 +9,7 @@
 
 A list of necessary libraries is below. 
 
-- R libraries: `igraph`, `tidyr`, `dplyr`, `reshape2`, `ggplot2`, `httr`, `readr`, `parallel`, `BiocManager`. All installed using `install.packages("<package>"))`.
+- R libraries: `igraph`, `tidyr`, `dplyr`, `Rcpp`, `reshape2`, `ggplot2`, `httr`, `installr`, `readr`, `parallel`, `BiocManager`. All installed using `install.packages("<package>"))`.
 - `limma` is also required and is installed using `BiocManager::install("<package>")`
 - `ProteomicsToolkit` is in-house R library of functions for plotting and statistical analysis. It is required for running the analysis pipeline. The GitHub project needs to be cloned, compiled, and installed. It is built using the `roxygen2` library and on Windows machines an Rtools install is necessary for compiling R libraries. (https://github.com/Kufalab-UCSD/ProteomicsToolkit)
 - The Contaminant Repository for Affinity Purification (CRAPome, https://reprint-apms.org/) must be preprocessed using tools in the `ProteomicsToolkit` library. The resulting processed contaminant list for proximity dependent biotinylation is stored in the `dirUniprot` local directory.
